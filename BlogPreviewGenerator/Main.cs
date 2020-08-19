@@ -16,5 +16,12 @@ namespace BlogPreviewGenerator
         {
             InitializeComponent();
         }
+
+        private void BtnGenerate_Click(object sender, EventArgs e)
+        {
+            string Title = TxtTitle.Text.Trim();
+            string Author = TxtAuthor.Text.Trim();
+            string 
+        }
     }
 }
